@@ -1,0 +1,336 @@
+html,
+body,
+.body {
+  background: #f0f1f2;
+  background-color: #f0f1f2;
+}
+.header{
+  width: 600px;
+  background-color: #f0f1f2 ;
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 20px;
+  
+  .news_icon{
+  border: 0;
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+  .header_title{
+    color: rgb(0, 0, 0);
+    font-family: SFProDisplayHeavy,'Helvetica Neue',sans-serif;
+    font-size: 30px;
+    font-synthesis: none;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+    span{
+      background-color: #fde293;
+      background: #fde293;
+    }
+    p{
+    color: #000;
+    font-family: SFProDisplaySemiBold,'Helvetica Neue',sans-serif;
+    font-size: 14px;
+    font-synthesis: none;
+    line-height: 16px;
+    margin: 0;
+    padding: 10px 0 0;
+    width: 100%;
+    }
+  }
+}
+
+.content-area{
+  background-color: #f0f1f2;
+  
+  .columns {
+    th {
+      background-color:white ;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    & > table {
+      max-width: 568px;
+      table-layout: fixed;
+    }
+  }
+  
+  h1{
+    color: rgb(0, 0, 0);
+    font-family: SFProDisplayHeavy,'Helvetica Neue',sans-serif;
+    font-size: 30px;
+    font-synthesis: none;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    line-height: 32px;
+    margin: 0;
+    padding: 3px;
+    width: 100%;
+    border-bottom: 3px solid #ff3555;
+  }
+  
+}
+  .sports-zone{
+    background-color: #f0f1f2;
+    .columns {
+      th {
+        background-color:white ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      & > table {
+        max-width: 568px;
+        table-layout: fixed;
+      }
+    }
+    h1{
+      color: rgb(0, 0, 0);
+      font-family: SFProDisplayHeavy,'Helvetica Neue',sans-serif;
+      font-size: 30px;
+      font-synthesis: none;
+      font-weight: 700;
+      letter-spacing: -1.5px;
+      line-height: 32px;
+      margin: 0;
+      padding: 3px;
+      width: 100%;
+      border-bottom: 3px solid #ff3555;
+    }
+  
+  }
+  .stocks{
+    background-color: #f0f1f2;
+    .columns {
+      th {
+        background-color:white ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      & > table {
+        max-width: 568px;
+        table-layout: fixed;
+      }
+    }
+    h1{
+      color: rgb(0, 0, 0);
+      font-family: SFProDisplayHeavy,'Helvetica Neue',sans-serif;
+      font-size: 30px;
+      font-synthesis: none;
+      font-weight: 700;
+      letter-spacing: -1.5px;
+      line-height: 32px;
+      margin: 0;
+      padding: 3px;
+      width: 100%;
+      border-bottom: 3px solid #ff3555;
+    }
+  
+  }
+
+.footer-top {
+  background: #f0f1f2;
+  background-color: #f0f1f2;
+  color: black;
+  & > tbody > tr {
+    vertical-align: middle;
+  }
+  & > tbody > tr > th {
+    padding-bottom: 25px !important;
+    padding-top: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  th {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .circle-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .call-to-action {
+    display: block;
+    font-size: 14px;
+    hyphens: none;
+    color: black;
+    padding-left: 10px;
+  }
+  .info {
+    display: block;
+    font-size: 12px;
+    hyphens: none;
+    color: black;
+    padding-left: 10px;
+  }
+  .info-section > table > tbody > tr > th {
+    padding-left: 10px !important;
+    color: black !important;
+  }
+  .store-logos {
+    img {
+      height: 40px;
+      width: 120px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    .columns th {
+    }
+    & > table > tbody > tr > th > table > tbody > tr > th {
+      padding-bottom: 5px;
+    }
+  }
+}
+.footer-social {
+  background: #f0f1f2;
+  background-color: #f0f1f2;
+  & > tbody > tr > th {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  th {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .logo-section {
+    img {
+      width: 128px;
+    }
+  }
+  .social-icons {
+    img {
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.footer-menu {
+  background: #f0f1f2;
+  background-color: #f0f1f2;
+  border-top: 1px solid #2d3e4b;
+  border-bottom: 1px solid #2d3e4b;
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    padding-top: 5px;
+    a {
+      color: black;
+      font-size: 14px;
+      font-weight: 700;
+      .icons {
+        width: 20px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+    th {
+      text-align: center;
+    }
+    .menu-divider {
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: black;
+      background-color: black;
+    }
+  }
+}
+.footer-bottom {
+  background: #f0f1f2;
+  background-color: #f0f1f2;
+  & > tbody > tr > th {
+    padding-left: 30px !important;
+    padding-bottom: 30px;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+  }
+  .lower-links {
+    .link {
+      font-size: 12px !important;
+      color: black !important;
+      margin-right: 10px;
+      &:nth-child(4) {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  .privacy {
+    th {
+      padding-bottom: 0;
+    }
+    & > tbody > tr > th > table > tbody > tr > th {
+      padding-bottom: 30px;
+    }
+    p {
+      color: #000000;
+      font-size: 10px;
+      padding-bottom: 30px;
+    }
+  }
+  .copyright{
+    p{
+      
+    }
+    th {
+      padding-bottom: 0;
+      
+    }
+    .columns {
+      p {
+        color: #000000;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 0px;
+        
+      }
+    }
+  }
+  .address {
+    p{
+      
+   
+      
+    }
+    th {
+      padding-bottom: 0;
+      
+    }
+    .columns {
+      p {
+        color: #000000;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 0px;
+        
+        
+        
+      }
+    }
+  }
+}
+.center-tag {
+  min-width: auto;
+}
